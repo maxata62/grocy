@@ -133,7 +133,7 @@ class CalendarService extends BaseService
 					'start' => $start,
 					'date_format' => $dateFormat,
 					'description' => $this->UrlManager->ConstructUrl('/mealplan' . '?week=' . $mealPlanDayRecipe->day),
-					'link' => $this->UrlManager->ConstructUrl('/recipes' . '?recipe=' . $mealPlanDayRecipe->recipe_id . '#fullscreen'),
+					'link' => $this->UrlManager->ConstructUrl('/recipes' . '?recipe=' . $mealPlanDayRecipe->recipe_id),
 					'color' => $usersService->GetUserSettings(GROCY_USER_ID)['calendar_color_meal_plan']
 				];
 			}

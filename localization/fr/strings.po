@@ -2856,10 +2856,13 @@ msgstr[1] "Cela signifie que %1$s étiquettes seront imprimées"
 msgstr[2] "Cela signifie que %1$s étiquettes seront imprimées"
 
 msgid "External barcode lookup (via plugin)"
-msgstr ""
+msgstr "Recherche de codes-barres barre externe (via plugin)"
 
 msgid "Error while executing the barcode lookup plugin"
-msgstr ""
+msgstr "Erreur pendant l'exécution du plugin de codes-barres externe"
 
 msgid "Nothing was found for the given barcode"
-msgstr ""
+msgstr "Rien n'a été trouvé pour le code barre reçu"
+
+msgid "Configure colors"
+msgstr "Paramétrage des couleurs"
