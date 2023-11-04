@@ -1,9 +1,7 @@
 #!/bin/bash
 
-GROCY_RELEASE_URL=https://releases.grocy.info/latest
 
-
-echo Start updating Grocy
+echo Start updating Grocy Fork maxata
 
 set -e
 shopt -s extglob
@@ -22,13 +20,10 @@ rm -rf !(data|update.sh) > /dev/null
 echo Emptying ./data/viewcache
 rm -rf ./data/viewcache/* > /dev/null
 
-echo Downloading latest release
-rm -f ./grocy-latest.zip > /dev/null
-wget $GROCY_RELEASE_URL -q -O ./grocy-latest.zip > /dev/null
 
 echo Unzipping latest release
-unzip -o ./grocy-latest.zip > /dev/null
-rm -f ./grocy-latest.zip > /dev/null
+unzip -o ./grocymaxata.zip > /dev/null
+rm -f ./grocymaxata.zip > /dev/null
 
 popd > /dev/null
 
